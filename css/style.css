@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.main {
+  background: url("../img/img_hero-image.png") no-repeat center center/cover;
+  height: 103vh;
+}
+.main span {
+  letter-spacing: 13px;
+  /* font-size: 16px; */
+  font-weight: 400;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*utilities*/
+.hamburger {
+  color: #88c542;
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+.hr-edit {
+  width: 109%;
+}
+.hr-ninja {
+  width: 10%;
+}
+.text-white {
+  color: #fff;
+}
+.color-grn {
+  color: #88c542;
+}
+.btn {
+  background-color: #27ad6c;
+  color: #fff;
+  padding: 15px 51px;
+  border: none;
+  cursor: pointer;
+}
+
+/*navbar*/
+.navbar {
+  position: relative;
+  padding: 20px;
+}
+.logo {
+  position: relative;
+}
+.logo img {
+  width: 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  color: #fff;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li input {
+  display: none;
+  outline: none;
+}
+.nav li:not(:last-child) {
+  margin-right: 45px;
+}
+.logo-text {
+  position: absolute;
+  top: -5px;
+  left: 37px;
+}
+.nav li a:hover {
+  color: #88c542;
+}
+.nar ul li i {
+  padding: 4px 20px;
+}
+/*showcase*/
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 103%;
+
+  /* rgba(red, green, blue, opacity) */
+  background: rgba(9, 14, 9, 0.904);
+}
+
+.showcase * {
+  /* The higher the z-index, the closer that element is to the user in front of the screen */
+  z-index: 10;
+}
+.showcase h1 {
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.showcase p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.showcase .btn {
+  color: #fff;
+  padding: 15px 51px;
+}
+/*banner-header*/
+.banner {
+  padding: 104px 46px;
+}
+.banner-header {
+  text-align: center;
+  margin-bottom: 33px;
+}
+.banner-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.banner-item h3 {
+  margin: 20px;
+}
+.vl {
+  border-left: 1px solid #333;
+  height: 264px;
+  position: absolute;
+}
+.banner2-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.banner2-items li {
+  padding: 20px 0px;
+}
+.ninja-icon.flex {
+  justify-content: center;
+}
+.ninja-icon {
+  padding: 50px 0px;
+}
+.ninja-icon .foods {
+  overflow: hidden;
+}
+.hr-left {
+  margin-right: 15px;
+}
+.hr-right {
+  margin-left: 15px;
+}
+.foods-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.foods h2 {
+  margin-bottom: 10px;
+}
+.foods-item {
+  padding: 30px;
+}
+.foods-items {
+  overflow: hidden;
+}
+.provide {
+  background-color: #423633;
+  padding: 80px;
+}
+.provide-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-gap: 5rem;
+}
+.provide-item {
+  position: relative;
+}
+.provide-item i {
+  position: absolute;
+  top: 2px;
+  left: -36px;
+  font-size: 25px;
+}
+.provide-text h2 {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+}
+.bottom-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 52px 0px;
+}
+.bottom-btn i {
+  margin-top: 50px;
+}
+.footer {
+  background-color: #333333;
+}
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul {
+  display: flex;
+}
+.footer ul li {
+  margin-right: 15px;
+}
+.footer a {
+  color: #fff;
+}

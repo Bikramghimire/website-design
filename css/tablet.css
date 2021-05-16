@@ -1,0 +1,56 @@
+.nav {
+  display: none;
+}
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+.nav-mobile {
+  position: relative;
+  background-color: #88c542;
+  display: none;
+  padding: 10px 10px;
+}
+.nav-mobile a {
+  color: #fff;
+}
+.nav-mobile li {
+  margin-bottom: 10px;
+}
+.nav-mobile li a:hover {
+  color: #333;
+}
+.showcase {
+  margin-top: 130px;
+}
+.showcase h1 {
+  font-size: 42px;
+  line-height: 26px;
+}
+.showcase p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.showcase .btn {
+  padding: 13px 30px;
+}
+
+.banner {
+  padding: 70px 13px;
+}
+.banner-items {
+  flex-direction: column;
+}
+
+.banner-item {
+  margin: 10px 0px;
+}
+.foods {
+  overflow: hidden;
+}
+.foods-items {
+  grid-template-columns: auto;
+}
+.provide-items {
+  grid-template-columns: auto;
+}
